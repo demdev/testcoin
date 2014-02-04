@@ -2,8 +2,8 @@
 // Copyright (c) 2013  The eMark developer
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef BOUNTYCOIN_SYNC_H
-#define BOUNTYCOIN_SYNC_H
+#ifndef EMARK_SYNC_H
+#define EMARK_SYNC_H
 
 #include <boost/thread/mutex.hpp>
 #include <boost/thread/recursive_mutex.hpp>

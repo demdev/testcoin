@@ -2,8 +2,8 @@
 // Copyright (c) 2013  The eMark developer
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef BOUNTYCOIN_WALLET_H
-#define BOUNTYCOIN_WALLET_H
+#ifndef EMARK_WALLET_H
+#define EMARK_WALLET_H
 
 #include <string>
 #include <vector>

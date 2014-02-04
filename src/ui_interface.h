@@ -2,8 +2,8 @@
 // Copyright (c) 2013 The eMark developer
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef BOUNTYCOIN_UI_INTERFACE_H
-#define BOUNTYCOIN_UI_INTERFACE_H
+#ifndef EMARK_UI_INTERFACE_H
+#define EMARK_UI_INTERFACE_H
 
 #include <string>
 #include "util.h" // for int64

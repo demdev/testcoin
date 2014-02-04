@@ -1,5 +1,5 @@
-#ifndef BOUNTYCOINFIELD_H
-#define BOUNTYCOINFIELD_H
+#ifndef EMARKFIELD_H
+#define EMARKFIELD_H
 
 #include <QWidget>
 
@@ -57,4 +57,4 @@ private slots:
 };
 
 
-#endif // BOUNTYCOINFIELD_H
+#endif // EMARKFIELD_H

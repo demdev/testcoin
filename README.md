@@ -1,4 +1,4 @@
-Deutsche eMark [DEM]
+TestCoin - Deutsche eMark [XDM]
 
 SHA256D, Proof of Work+Proof of Stake
 

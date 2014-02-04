@@ -91,8 +91,8 @@ contains(USE_IPV6, -) {
     DEFINES += USE_IPV6=$$USE_IPV6
 }
 
-contains(BOUNTYCOIN_NEED_QT_PLUGINS, 1) {
-    DEFINES += BOUNTYCOIN_NEED_QT_PLUGINS
+contains(EMARK_NEED_QT_PLUGINS, 1) {
+    DEFINES += EMARK_NEED_QT_PLUGINS
     QTPLUGIN += qcncodecs qjpcodecs qtwcodecs qkrcodecs qtaccessiblewidgets
 }
 
@@ -269,14 +269,14 @@ SOURCES += src/qt/qrcodedialog.cpp
 FORMS += src/qt/forms/qrcodedialog.ui
 }
 
-contains(BOUNTYCOIN_QT_TEST, 1) {
+contains(EMARK_QT_TEST, 1) {
 SOURCES += src/qt/test/test_main.cpp \
     src/qt/test/uritests.cpp
 HEADERS += src/qt/test/uritests.h
 DEPENDPATH += src/qt/test
 QT += testlib
 TARGET = eMark-qt_test
-DEFINES += BOUNTYCOIN_QT_TEST
+DEFINES += EMARK_QT_TEST
 }
 
 CODECFORTR = UTF-8

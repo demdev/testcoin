@@ -12,8 +12,8 @@
 // - E-mail usually won't line-break if there's no punctuation to break at.
 // - Double-clicking selects the whole number as one word if it's all alphanumeric.
 //
-#ifndef BOUNTYCOIN_BASE58_H
-#define BOUNTYCOIN_BASE58_H
+#ifndef EMARK_BASE58_H
+#define EMARK_BASE58_H
 
 #include <string>
 #include <vector>
@@ -276,7 +276,7 @@ class CeMarkAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 53,
+        PUBKEY_ADDRESS = 31,
         SCRIPT_ADDRESS = 30, 
         PUBKEY_ADDRESS_TEST = 111,
         SCRIPT_ADDRESS_TEST = 196,

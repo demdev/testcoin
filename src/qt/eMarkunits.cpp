@@ -34,9 +34,9 @@ QString eMarkUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("DEM");
-    case mBTC: return QString("mDEM");
-    case uBTC: return QString::fromUtf8("μDEM");
+    case BTC: return QString("XDM");
+    case mBTC: return QString("mXDM");
+    case uBTC: return QString::fromUtf8("μXDM");
     default: return QString("???");
     }
 }

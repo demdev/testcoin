@@ -1,5 +1,5 @@
-#ifndef BOUNTYCOINUNITS_H
-#define BOUNTYCOINUNITS_H
+#ifndef EMARKUNITS_H
+#define EMARKUNITS_H
 
 #include <QString>
 #include <QAbstractListModel>
@@ -63,4 +63,4 @@ private:
 };
 typedef eMarkUnits::Unit eMarkUnit;
 
-#endif // BOUNTYCOINUNITS_H
+#endif // EMARKUNITS_H

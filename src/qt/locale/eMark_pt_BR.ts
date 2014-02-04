@@ -248,8 +248,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BOUNTYCOINS&lt;/b&gt;!</source>
-        <translation>Aviso: Se você criptografar sua carteira e perder sua senha, você vai &lt;b&gt;perder todos os seus BOUNTYCOINS!&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR EMARKS&lt;/b&gt;!</source>
+        <translation>Aviso: Se você criptografar sua carteira e perder sua senha, você vai &lt;b&gt;perder todos os seus EMARKS!&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2313,7 +2313,7 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
 rpcuser=eMarkrpc⏎
 rpcpassword=%s⏎
 (você não precisa lembrar esta senha)⏎
-O nome de usuário e a senha NÃO PODEM ser os mesmos.⏎
+O nome de usuário e a senha NÃO POXDM ser os mesmos.⏎
 Se o arquivo não existir, crie um com permissão de leitura apenas para o dono.⏎
 É recomendado também definir um alertnotify para que você seja notificado de problemas;⏎
 por exemplo: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.com⏎

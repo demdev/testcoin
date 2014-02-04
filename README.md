@@ -18,9 +18,9 @@ Epoch (nChainStartTime): 1391533200
 
 pszTimestamp: "Deutsche eMark"
 
-RPCPort = 6666
+RPCPort = 16666
 
-P2PPort = 5556
+P2PPort = 15556
 
 140 Character Transaction Messaging
 

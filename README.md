@@ -14,7 +14,7 @@ Max 20 Billion Proof of Work Coins
 
 Public Address Key: 
 
-Epoch (nChainStartTime): 1381515983
+Epoch (nChainStartTime): 1391533200
 
 pszTimestamp: "Deutsche eMark"
 

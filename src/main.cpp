@@ -2594,7 +2594,7 @@ bool LoadBlockIndex(bool fAllowNew)
         printf("block.nNonce = %u \n", block.nNonce);
         printf("block.nBits = %u \n", block.nBits);
 
-        assert(block.hashMerkleRoot == uint256("0x8309a1afa9ae6d87c85eda546f30abe3f4ca07fd417ff2d34acdf7d7ee1768d4"));
+        assert(block.hashMerkleRoot == uint256("0x200455dc828b4f61c678aa357a90b7c5826cb5629c21d311f42798d2d92f22f5"));
         block.print();
         assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
         assert(block.CheckBlock());

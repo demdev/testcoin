@@ -2557,15 +2557,15 @@ bool LoadBlockIndex(bool fAllowNew)
 
         CBlock block;
         block.vtx.push_back(txNew);
-        block.hashPrevBlock = 0x0000a0a2f41e2ff093b25bd924fe5a0dcc458d45890d34fda72110acb4a5629a;
+        block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
         block.nTime    = nChainStartTime;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = 82147;
+        block.nNonce   = 0;
 
         if (IsCalculatingGenesisBlockHash && (block.GetHash() != hashGenesisBlock)) {
-			block.nNonce = 82147;
+			block.nNonce = 0;
 
             // This will figure out a valid hash and Nonce if you're
             // creating a different genesis block:
@@ -2594,7 +2594,7 @@ bool LoadBlockIndex(bool fAllowNew)
         printf("block.nNonce = %u \n", block.nNonce);
         printf("block.nBits = %u \n", block.nBits);
 
-        assert(block.hashMerkleRoot == uint256("0x8309a1afa9ae6d87c85eda546f30abe3f4ca07fd417ff2d34acdf7d7ee1768d4"));
+        assert(block.hashMerkleRoot == uint256("0x"));
         block.print();
         assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
         assert(block.CheckBlock());

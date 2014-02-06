@@ -8,15 +8,15 @@ Max 20 Billion Proof of Work Coins
 
 50 coins per block
 
-2 minute block targets
+Instant block targets
 
 100 blocks to coin maturation
 
 Public Address Key: 
 
-Epoch (nChainStartTime): 1391533200
+Epoch (nChainStartTime): 
 
-pszTimestamp: "Deutsche eMark"
+pszTimestamp: 
 
 RPCPort = 16666
 
@@ -25,3 +25,11 @@ P2PPort = 15556
 140 Character Transaction Messaging
 
 Config File: %appdata%\eMark\eMark.conf
+content config file:
+rpcuser=...
+rpcpassword=...
+addnode=85.214.216.57   
+rpcport=16666
+server=1
+
+Please add it to your eMark.conf

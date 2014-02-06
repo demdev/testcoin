@@ -1015,7 +1015,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Unix: ~/.eMark
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "eMark";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "testcoin-eMark";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1027,10 +1027,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "eMark";
+    return pathRet / "testcoin-eMark";
 #else
     // Unix
-    return pathRet / ".eMark";
+    return pathRet / ".testcoin-eMark";
 #endif
 #endif
 }
